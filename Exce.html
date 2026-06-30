@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>מבחן במבני נתונים</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/esplit/tex-mml-chtml.js"></script>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 40px; }
+        .question { margin-bottom: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+        .answer-space { height: 100px; border: 1px dashed #999; margin-top: 10px; background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>מבחן במבני נתונים ואלגוריתמים</h1>
+    
+    <div class="question">
+        <p><strong>שאלה 1:</strong><br>
+        א. הסבר/י מדוע זמן הריצה במקרה הגרוע של אלגוריתם מבוסס השוואות לא יכול להיות טוב מ- \(\\Omega(n \\log n)\).<br>
+        ב. בהינתן מערך בטווח \([1, c \\cdot n]\), הצע/י אלגוריתם מבוסס מנייה (Counting Sort) בזמן \ O(n)\).<br>
+        ג. מדוע פתרון ב' אינו סותר את החסם מסעיף א'?</p>
+        <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+        <p><strong>שאלה 2:</strong><br>
+        נתונה טבלה בגודל \(m=11\) ופונקציית גיבוב \(h(k) = k \\bmod 11\). מפתחות: 10, 22, 31, 4, 15, 28, 17.<br>
+        א. הצג/י את הטבלה בשיטת שרשור. מהו מקדם העומס \(\\alpha = n/m\)?<br>
+        ב. בצע/י הכנסה בשיטת גיבוב כפול עם \(h_1(k) = k \\bmod 11\) ו-\(h_2(k) = 1 + (k \\bmod 7)\).</p>
+        <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+        <p><strong>שאלה 3:</strong><br>
+        נתונות שתי ערימות מקסימום בינאריות בגדלים \(n\) ו-\(m\).<br>
+        א. נתח/י את סיבוכיות המיזוג של סטודנט א' (שליפה והכנסה אינדיבידואלית).<br>
+        ב. הצע/י אלגוריתם מיזוג יעיל המבוסס על Build-Heap ונתח/י סיבוכיות.</p>
+        <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+        <p><strong>שאלה 4:</strong><br>
+        א. הוכח/י מדוע בניית עץ חיפוש בינארי (BST) כללי מתוך מערך לא ממוין אינה יעילה מ-\(\\Omega(n \\log n)\).<br>
+        ב. בהינתן מערך ממוין, תאר/י אלגוריתם רקורסיבי לבניית עץ מאוזן בזמן \(O(n)\) ללא גלגולים.</p>
+        <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+        <p><strong>שאלה 5:</strong><br>
+        נתון מערך \(A\) ממוין. מצא/י שלשה \(A[i] + A[j] = A[k]\) בזמן \(O(n^2)\) ומקום \(O(1)\).<br>
+        א. תאר/י את האלגוריתם.<br>
+        ב. נתח/י את ההצעה להשתמש בטבלת גיבוב: מה הסיבוכיות המרחבית והאם המקרה הגרוע השתפר?</p>
+        <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+        <p><strong>שאלה 6:</strong><br>
+        כתוב/י אלגוריתם בסריקה אחת המקבל שורש עץ וקובע האם הוא:<br>
+        1. סימטרי מבנית.<br>
+        2. מאוזן לחלוטין (כל פקטור איזון = 0).<br>
+        תאר/י מתי ניתן לבצע חיתוך מוקדם ונתח/י סיבוכיות.</p>
+        <div class="answer-space"></div>
+    </div>
+</body>
+</html>
